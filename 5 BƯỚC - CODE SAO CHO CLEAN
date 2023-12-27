@@ -1,0 +1,15 @@
+## Đặt tên biến 
+-- firstName hoặc first_name.
+-- Tránh sử dụng các tên biến chung chung, viết tắt hoặc không liên quan
+-- tuân theo các quy tắc về cú pháp, kiểu dữ liệu, phạm vi và mục đích của biến
+-- Không sử dụng các tên gần giống nhau, có nghĩa đối lập hoặc có thể gây hiểu nhầm
+## Hàm/Function
+-- Mỗi hàm nên ngắn gọn, và mỗi hàm chỉ làm một việc, có thể tách các hàm nhỏ hơn để dễ sử dụng.
+-- Sử dụng tham số hợp lý.
+-- 1 hàm nên có ít tham số nhất có thể.
+-- Tham số phải có ý nghĩa và kiểu dữ liệu phù hợp. (nếu được tránh các tham số boolean để tránh hàm có nhiều nhánh logic và dễ có nguy cơ báo nhiều lỗi
+-- 
+## Lặp code
+-- Gây lỗi bug, không nhất quán, không đồng bộ, khó kiểm soát chất lượng code, khó tìm và sửa lỗi
+-- Khó bảo trì và mở rộng code 
+-- Khó tái sửu dụng code.
