@@ -1,15 +1,27 @@
-## Đặt tên biến 
--- firstName hoặc first_name.
+1-## Đặt tên biến 
+-- VD đúng: firstName hoặc first_name.
 -- Tránh sử dụng các tên biến chung chung, viết tắt hoặc không liên quan
 -- tuân theo các quy tắc về cú pháp, kiểu dữ liệu, phạm vi và mục đích của biến
 -- Không sử dụng các tên gần giống nhau, có nghĩa đối lập hoặc có thể gây hiểu nhầm
-## Hàm/Function
+2-## Hàm/Function
 -- Mỗi hàm nên ngắn gọn, và mỗi hàm chỉ làm một việc, có thể tách các hàm nhỏ hơn để dễ sử dụng.
 -- Sử dụng tham số hợp lý.
 -- 1 hàm nên có ít tham số nhất có thể.
 -- Tham số phải có ý nghĩa và kiểu dữ liệu phù hợp. (nếu được tránh các tham số boolean để tránh hàm 
 có nhiều nhánh logic và dễ có nguy cơ báo nhiều lỗi
-## Lặp code
+3-## Lặp code
 -- Gây lỗi bug, không nhất quán, không đồng bộ, khó kiểm soát chất lượng code, khó tìm và sửa lỗi
 -- Khó bảo trì và mở rộng code 
--- Khó tái sửu dụng code.
+-- Khó tái sử dụng code.
+4-## Comment
+-- Cung cấp thông tin cho code, giải quyết, yêu cầu, dễ hiểu, giải pháp.
+-- Dùng cmt khi cần thiết.
+5-## Nguyên tắc khi viết UNIT TEST
+-- Tổ chức các bước trong unit test theo pattern AAA (arange, act, assert).
+-- Mỗi bài test nên chứa 1 lệnh assert và chỉ nên kiểm tra cho một trường hợp cụ thể.
++++++ NGUYÊN TẮC F.I.R.S.T
+ + Fast: unit test cần chạy nhanh để có thể coder có thể chạy nhiều bài test
+ ++ Independent: Các bài test không nên phụ thuộc vào nhau.
+ +++ Repeatable: Bài test chạy độc lập với môi trường bên ngoài để bài test có thể lặp đi lặp lại mà không bị gián đoạn
+ ++++ Self-Validating: kết quả chỉ nên trả về đúng hoặc sai
+ +++++ Timely: Unit Test viết đúng thời điểm, phù hợp nhất là viết ngay trước khi viết product code để tránh cho coder khó tạo ra unit test cho product code đã viết
