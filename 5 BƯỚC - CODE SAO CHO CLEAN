@@ -19,7 +19,7 @@ có nhiều nhánh logic và dễ có nguy cơ báo nhiều lỗi
 5-## Nguyên tắc khi viết UNIT TEST
 -- Tổ chức các bước trong unit test theo pattern AAA (arange, act, assert).
 -- Mỗi bài test nên chứa 1 lệnh assert và chỉ nên kiểm tra cho một trường hợp cụ thể.
-+++++ NGUYÊN TẮC F.I.R.S.T
++++++ Nguyên tắc F.I.R.S.T
  + Fast: unit test cần chạy nhanh để có thể coder có thể chạy nhiều bài test
  ++ Independent: Các bài test không nên phụ thuộc vào nhau.
  +++ Repeatable: Bài test chạy độc lập với môi trường bên ngoài để bài test có thể lặp đi lặp lại mà không bị gián đoạn
